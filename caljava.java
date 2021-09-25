@@ -1,32 +1,27 @@
-
-/adding this to branch1 /
-
-=======
-/from branch2/
->>>>>>> branch2
-import java.util.Scanner;
-
-public class calculator{
+public class caljava{
 
 	public static void main(Strig args[]){
-	float a, b
+	float a, b;
+	char choice;
 	Scanner scan = new Scanner(System.in);
 
 	do{
-		System.out.println("Enter The two values:" );
+		System.out.println("Enter the value of a:" );
 		a = scan.nextfloat();
+		System.out.println("Enter the value of b:" );
 		b = scan.nextfloat();
-		res = a + b;
+		Float res;
+		System.out.printls("Enter 1 or 2 or 3");
 		choice = scan.next().charAt(0);
 		switch(choice){
-			case "1":
-				System.out.println("Enter The two values:" );
-                		a = scan.nextfloat();
-                		b = scan.nextfloat();
+			case '1':
 				res = a + b;
 				System.out.println("Result:"+"\t" + res);
 				break;
-			case "2":
+			case '2':
+				res = a-b;
+				System.out.println("Result:" + "\t" + res);
+			case '3':
 				System.exit(0);
 			default:
 				System.out.println("Invalid choice");
