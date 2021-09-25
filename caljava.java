@@ -30,6 +30,7 @@ public class caljava{
 			case '4':
 				res = a/b;
 				System.out.println("Result of Divide:"+"\t" + res);
+				break;
 			case '5':
 				System.exit(0);
 			default :
