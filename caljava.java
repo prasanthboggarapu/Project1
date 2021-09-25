@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator{
+public class caljava{
 
 	public static void main(Strig args[]){
 	float a, b;
