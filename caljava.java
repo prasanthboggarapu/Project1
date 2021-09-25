@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /adding this to new branch1 /
 
+=======
+/from branch2/
+>>>>>>> branch2
 import java.util.Scanner;
 
 public class calculator{
