@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/adding this from branch2
 /adding this to new branch1 /
 
 =======
